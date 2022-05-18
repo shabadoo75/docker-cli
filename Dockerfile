@@ -12,7 +12,9 @@ RUN apt-get -y install \
 ca-certificates \
 curl \
 wget \
-gnupg python3-pip \
+gnupg \
+python3-pip \
+python-is-python3 \
 bc \
 git \
 jq \
