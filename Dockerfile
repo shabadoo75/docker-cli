@@ -15,6 +15,8 @@ wget \
 gnupg \
 python3-pip \
 python-is-python3 \
+software-properties-common \
+keychain \
 bc \
 git \
 jq \
@@ -31,7 +33,8 @@ awscli \
 aws-sam-cli \
 dateparser \
 pyjwt \
-requests
+requests \
+zabbix-api
 
 # command
 ENTRYPOINT [ "/bin/bash", "-l" ]
