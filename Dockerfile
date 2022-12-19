@@ -8,9 +8,13 @@ ARG ubuntu_version=jammy
 # update
 RUN apt-get update && apt-get -y upgrade
 
+# going to be logging in
+RUN unminimize
+
 # install apt packages
 RUN apt-get update && apt-get -y install \
 ca-certificates \
+man \
 curl \
 wget \
 gnupg \
